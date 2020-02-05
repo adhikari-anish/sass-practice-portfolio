@@ -223,7 +223,7 @@
   padding-bottom: 1rem;
 }
 
-.jobs {
+.about .jobs {
   width: 60vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
@@ -233,22 +233,22 @@
   grid-gap: 2rem;
 }
 
-.jobs__job {
+.about .jobs__job {
   background: #414141;
   padding: 0.5rem;
   border-bottom: 5px solid #ff652f;
 }
 
-.jobs__job h2,
-.jobs__job h3 {
+.about .jobs__job h2,
+.about .jobs__job h3 {
   margin: 0.5rem 0;
 }
 
-.jobs__job h6 {
+.about .jobs__job h6 {
   margin: 0.3rem 0;
 }
 
-.social-icons {
+.about .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,7 +258,7 @@
           flex-direction: column;
 }
 
-footer {
+.about footer {
   -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
